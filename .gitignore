@@ -1,3 +1,5 @@
 *.png
 !static/*.png
 *.pkg.*
+src
+pkg
