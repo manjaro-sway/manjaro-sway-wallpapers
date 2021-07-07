@@ -1,7 +1,7 @@
 # Maintainer: Jonas Strassel <info@jonas-strassel.de>
 pkgname="manjaro-sway-wallpapers"
 pkgver=1.0.2
-pkgrel=2
+pkgrel=3
 pkgdesc="Set of manjaro-related wallpapers"
 arch=('any')
 url="https://github.com/Manjaro-Sway/manjaro-sway-wallpapers"
