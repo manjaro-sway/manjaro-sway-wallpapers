@@ -1,6 +1,6 @@
 # Maintainer: Jonas Strassel <info@jonas-strassel.de>
 pkgname="manjaro-sway-wallpapers"
-pkgver=1.0.2
+pkgver=2.0.0
 pkgrel=3
 pkgdesc="Set of manjaro-related wallpapers"
 arch=('any')
@@ -20,11 +20,11 @@ md5sums=(
 )
 
 prepare() {
-    cp $startdir/static/*.png $srcdir/
+    cp "$startdir"/static/*.png "$srcdir"/
 }
 
 package() {
-    install -d $pkgdir/usr/share/backgrounds/manjaro-sway
-    install *.png ${pkgdir}/usr/share/backgrounds/manjaro-sway
-    install *.LICENSE ${pkgdir}/usr/share/backgrounds/manjaro-sway
+    install -d "$pkgdir"/usr/share/backgrounds/manjaro-sway
+    install *.png "${pkgdir}"/usr/share/backgrounds/manjaro-sway
+    install *.LICENSE "${pkgdir}"/usr/share/backgrounds/manjaro-sway
 }
